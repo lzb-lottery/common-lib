@@ -25,4 +25,17 @@
             <version>2.7.6</version> <!-- 指定 Spring Boot 版本 -->
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>  <!-- 确保使用较新的插件版本 -->
+                <configuration>
+                    <source>1.8</source>  <!-- 设置 Java 编译版本为 1.8 或更高 -->
+                    <target>1.8</target>  <!-- 设置 Java 目标版本为 1.8 或更高 -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
