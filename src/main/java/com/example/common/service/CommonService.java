@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class CommonService {
     public String getMessage() {
-        return "Hello from CommonLib!";
+        return "Hello from CommonLib2!";
     }
 }
